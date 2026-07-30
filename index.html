@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>RCI | Inicio</title>
+
+<meta name="description" content="RCI es un sitio con información, recursos y contenido original.">
+<meta name="keywords" content="RCI, información, tecnología">
+<meta name="author" content="RCI">
+
+<style>
+
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:Arial,Helvetica,sans-serif;
+}
+
+body{
+background:#f4f6f8;
+color:#333;
+line-height:1.7;
+}
+
+header{
+background:#0a3d62;
+color:#fff;
+padding:20px;
+}
+
+nav{
+display:flex;
+justify-content:space-between;
+align-items:center;
+max-width:1100px;
+margin:auto;
+}
+
+nav ul{
+display:flex;
+list-style:none;
+gap:20px;
+}
+
+nav a{
+color:white;
+text-decoration:none;
+}
+
+.hero{
+padding:80px 20px;
+text-align:center;
+background:white;
+}
+
+.hero h1{
+font-size:48px;
+margin-bottom:15px;
+}
+
+.hero p{
+max-width:700px;
+margin:auto;
+}
+
+.container{
+max-width:1100px;
+margin:auto;
+padding:40px 20px;
+}
+
+.card{
+background:white;
+padding:25px;
+margin-bottom:25px;
+border-radius:10px;
+box-shadow:0 2px 10px rgba(0,0,0,.08);
+}
+
+.ad{
+margin:30px 0;
+padding:30px;
+border:2px dashed #999;
+text-align:center;
+background:#fafafa;
+}
+
+footer{
+background:#0a3d62;
+color:white;
+padding:30px;
+margin-top:40px;
+}
+
+footer a{
+color:white;
+text-decoration:none;
+}
+
+.cookie{
+position:fixed;
+bottom:0;
+left:0;
+right:0;
+background:#222;
+color:white;
+padding:15px;
+text-align:center;
+}
+
+.cookie button{
+padding:10px 20px;
+margin-left:15px;
+cursor:pointer;
+}
+
+@media(max-width:768px){
+
+nav{
+flex-direction:column;
+}
+
+nav ul{
+margin-top:15px;
+flex-wrap:wrap;
+justify-content:center;
+}
+
+.hero h1{
+font-size:34px;
+}
+
+}
+
+</style>
+</head>
+
+<body>
+
+<header>
+
+<nav>
+
+<h2>RCI</h2>
+
+<ul>
+
+<li><a href="#inicio">Inicio</a></li>
+
+<li><a href="#nosotros">Nosotros</a></li>
+
+<li><a href="#articulos">Artículos</a></li>
+
+<li><a href="#contacto">Contacto</a></li>
+
+</ul>
+
+</nav>
+
+</header>
+
+<section class="hero" id="inicio">
+
+<h1>Bienvenido a RCI</h1>
+
+<p>
+Compartimos contenido original e información útil para nuestros visitantes.
+Nuestro objetivo es ofrecer recursos claros, actualizados y de calidad.
+</p>
+
+</section>
+
+<div class="container">
+
+<div class="card" id="nosotros">
+
+<h2>Sobre RCI</h2>
+
+<p>
+RCI es un sitio web dedicado a publicar contenido original, recursos e información de interés para los usuarios. Nuestro compromiso es ofrecer información clara, útil y actualizada.
+</p>
+
+</div>
+
+<div class="ad">
+
+Espacio reservado para Google AdSense
+
+</div>
+
+<div class="card" id="articulos">
+
+<h2>Contenido</h2>
+
+<p>
+
+Aquí puedes publicar artículos originales escritos por ti.
+
+Cada publicación debe aportar información útil y evitar contenido duplicado.
+
+</p>
+
+</div>
+
+<div class="card">
+
+<h2>Política de Privacidad</h2>
+
+<p>
+
+Respetamos la privacidad de nuestros visitantes. Podemos utilizar cookies para mejorar la experiencia del usuario y servicios de terceros que recopilan información de forma limitada para fines estadísticos o publicitarios.
+
+</p>
+
+</div>
+
+<div class="card">
+
+<h2>Términos de Uso</h2>
+
+<p>
+
+El contenido publicado tiene fines informativos. Los usuarios son responsables del uso que hagan de la información disponible en este sitio.
+
+</p>
+
+</div>
+
+<div class="card" id="contacto">
+
+<h2>Contacto</h2>
+
+<p>
+
+Correo electrónico:
+contacto@rci.com
+
+</p>
+
+</div>
+
+</div>
+
+<footer>
+
+<p>
+
+© 2026 RCI
+
+</p>
+
+<p>
+
+<a href="#">Política de Privacidad</a> |
+<a href="#">Términos de Uso</a>
+
+</p>
+
+</footer>
+
+<div class="cookie" id="cookie">
+
+Este sitio utiliza cookies para mejorar la experiencia del usuario.
+
+<button onclick="document.getElementById('cookie').style.display='none'">
+
+Aceptar
+
+</button>
+
+</div>
+
+</body>
+</html>
